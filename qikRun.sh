@@ -11,8 +11,6 @@ echo "   ~  Connect to  Mongo server : " $MONGO_URL
 echo "   ~  Running in demo mode : " $DEMO_MODE
 echo "### ~   ~   ~    "
 
-meteor remove xolvio:cucumber
-# meteor remove xolvio:webdriver
 meteor --settings=settings.json
 
 
