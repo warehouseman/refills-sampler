@@ -9,7 +9,8 @@ A compendium of pattern, component and type system examples to showcase the func
      #
      cd refills-sampler
      mkdir -p packages
-     ln -s /home/yourself/projects/meteor-refills packages/warehouseman\:refills-sampler
-     meteor add  warehouseman:refills-sampler
+     meteor                            #  **Will fail!**   Hit <ctrl-c>
+     ln -s /home/yourself/projects/meteor-refills packages/warehouseman\:meteor-refills
+     meteor add  warehouseman:meteor-refills
      meteor
 
