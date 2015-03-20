@@ -1,0 +1,36 @@
+@import "bourbon/bourbon";
+@import "neat/neat";
+@import "bitters/base";
+
+
+.accordion_example {
+
+  $base-border-color: gainsboro !default;
+  $base-line-height: 1.5em !default;
+  $base-spacing: 1.5em !default;
+  $dark-gray: #f33 !default;
+  $base-font-color: $dark-gray !default;
+  
+  margin: 0;
+  padding: 0;
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+    padding: 20;
+  }
+
+  p {
+    color: #ff0000;
+    color: $base-font-color;
+    line-height: $base-line-height;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}

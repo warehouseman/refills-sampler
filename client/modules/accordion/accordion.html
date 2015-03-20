@@ -1,0 +1,62 @@
+
+<template name="accordionExample">
+
+
+  <ul class="accordion_example accordion">
+    <li>
+      {{> accordionItem_A}}
+    </li>
+    <li>
+      {{> accordionItem_B}}
+    </li>
+  </ul>
+
+</template>
+
+<template name="accordionItem_A">
+  <a href="javascript:void(0)" class="js-accordion-trigger">Accordion Item AA</a>
+  <ul class="submenu">
+     {{> subItem_a1}}
+     {{> subItem_a2}}
+  </ul>
+</template>
+
+<template name="accordionItem_B">
+  <a href="javascript:void(0)" class="js-accordion-trigger">Accordion Item BB</a>
+  <ul class="submenu">
+     {{> subItem_b1}}
+     {{> subItem_b2}}
+     {{> subItem_b3}}
+  </ul>
+</template>
+
+<template name="subItem_a1">
+  <li>
+    <a href="javascript:void(0)">Sub Item A1</a>
+  </li>
+</template>
+
+<template name="subItem_a2">
+  <li>
+    <a href="javascript:void(0)">Sub Item A2</a>
+  </li>
+</template>
+
+<template name="subItem_b1">
+  <li>
+    <a href="javascript:void(0)">Sub Item B1</a>
+  </li>
+</template>
+
+<template name="subItem_b2">
+  <li>
+    <a href="javascript:void(0)">Sub Item B2</a>
+  </li>
+</template>
+
+<template name="subItem_b3">
+  <p>
+    Hello
+  </p>
+</template>
+
